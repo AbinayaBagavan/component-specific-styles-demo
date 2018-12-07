@@ -1,0 +1,12 @@
+<h2>App Component List</h2>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Location</th>
+  </tr>
+  <tr *ngFor="let user of userLocationDetails">
+    <td>{{user.name}}</td>
+    <td>{{user.location}}</td>  
+  </tr>
+  </table>
+<app-user></app-user>
